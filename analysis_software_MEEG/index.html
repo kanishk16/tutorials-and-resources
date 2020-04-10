@@ -1,0 +1,1115 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
+    
+    
+      
+        <title>MEEG - neuroimaging tutorials and resources</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.adb8469c.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#03a9f4">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.86422ebf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#main-eeg-and-meg-softwares" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="neuroimaging tutorials and resources" aria-label="neuroimaging tutorials and resources" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              neuroimaging tutorials and resources
+            </span>
+            <span class="md-header-nav__topic">
+              
+                MEEG
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/learn-neuroimaging/tutorials-and-resources/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    learn-neuroimaging/tutorials-and-resources
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="neuroimaging tutorials and resources" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    neuroimaging tutorials and resources
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/learn-neuroimaging/tutorials-and-resources/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    learn-neuroimaging/tutorials-and-resources
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Welcome" class="md-nav__link">
+      Welcome
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../programming/" title="Programming" class="md-nav__link">
+      Programming
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../open_science/" title="Open science" class="md-nav__link">
+      Open science
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../open_data/" title="Open data" class="md-nav__link">
+      Open data
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../statistics/" title="Statistics" class="md-nav__link">
+      Statistics
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Analysis software
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Analysis software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../analysis_software_MRI/" title="MRI" class="md-nav__link">
+      MRI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        MEEG
+      </label>
+    
+    <a href="./" title="MEEG" class="md-nav__link md-nav__link--active">
+      MEEG
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-eeg-and-meg-softwares" class="md-nav__link">
+    Main EEG and MEG Softwares
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-purpose-tools" class="md-nav__link">
+    General Purpose Tools
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mne" class="md-nav__link">
+    MNE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wonambi" class="md-nav__link">
+    Wonambi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neurokit" class="md-nav__link">
+    NeuroKit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fieldtrip" class="md-nav__link">
+    FieldTrip
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brainstorm" class="md-nav__link">
+    BrainStorm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eeglab" class="md-nav__link">
+    EEGLab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spm" class="md-nav__link">
+    SPM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nutmeg" class="md-nav__link">
+    NutMEG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eegutils" class="md-nav__link">
+    EEGUtils
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eegjl" class="md-nav__link">
+    EEG.jl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cartool" class="md-nav__link">
+    CarTool
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standalone-tools-specific-purposes" class="md-nav__link">
+    Standalone Tools - Specific Purposes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neurodsp" class="md-nav__link">
+    NeuroDSP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fooof" class="md-nav__link">
+    FOOOF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spectral-connectivity" class="md-nav__link">
+    Spectral Connectivity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pactools" class="md-nav__link">
+    PACTools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tensor-pac" class="md-nav__link">
+    Tensor PAC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pyeeg" class="md-nav__link">
+    PyEEG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecogtools" class="md-nav__link">
+    ECoGTools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restingiaf" class="md-nav__link">
+    restingIAF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-opposition-code" class="md-nav__link">
+    Phase Opposition Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adam-amsterdam-decoding-and-modeling-toolbox" class="md-nav__link">
+    ADAM - Amsterdam Decoding and Modeling Toolbox
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hermes" class="md-nav__link">
+    HERMES
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sereega-simualating-event-related-eeg-activity" class="md-nav__link">
+    SEREEGA - Simualating Event-Related EEG Activity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unfold" class="md-nav__link">
+    UNFOLD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ept-tfce" class="md-nav__link">
+    ept-TFCE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erp-reliability-analysis-era" class="md-nav__link">
+    ERP Reliability Analysis (ERA)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openmeeg" class="md-nav__link">
+    OpenMEEG
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../machine_and_deep_learning/" title="Machine learning and Deep learning" class="md-nav__link">
+      Machine learning and Deep learning
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../computing/" title="Computing" class="md-nav__link">
+      Computing
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../learning_neuroimaging/" title="learning neuroimaging" class="md-nav__link">
+      learning neuroimaging
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../neuroimaging_resources/" title="Neuroimaging resources" class="md-nav__link">
+      Neuroimaging resources
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../reproducible_neuroimaging_research/" title="Reproducible research" class="md-nav__link">
+      Reproducible research
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#main-eeg-and-meg-softwares" class="md-nav__link">
+    Main EEG and MEG Softwares
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-purpose-tools" class="md-nav__link">
+    General Purpose Tools
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mne" class="md-nav__link">
+    MNE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wonambi" class="md-nav__link">
+    Wonambi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neurokit" class="md-nav__link">
+    NeuroKit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fieldtrip" class="md-nav__link">
+    FieldTrip
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#brainstorm" class="md-nav__link">
+    BrainStorm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eeglab" class="md-nav__link">
+    EEGLab
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spm" class="md-nav__link">
+    SPM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nutmeg" class="md-nav__link">
+    NutMEG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eegutils" class="md-nav__link">
+    EEGUtils
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eegjl" class="md-nav__link">
+    EEG.jl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cartool" class="md-nav__link">
+    CarTool
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standalone-tools-specific-purposes" class="md-nav__link">
+    Standalone Tools - Specific Purposes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neurodsp" class="md-nav__link">
+    NeuroDSP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fooof" class="md-nav__link">
+    FOOOF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spectral-connectivity" class="md-nav__link">
+    Spectral Connectivity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pactools" class="md-nav__link">
+    PACTools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tensor-pac" class="md-nav__link">
+    Tensor PAC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pyeeg" class="md-nav__link">
+    PyEEG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecogtools" class="md-nav__link">
+    ECoGTools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restingiaf" class="md-nav__link">
+    restingIAF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-opposition-code" class="md-nav__link">
+    Phase Opposition Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adam-amsterdam-decoding-and-modeling-toolbox" class="md-nav__link">
+    ADAM - Amsterdam Decoding and Modeling Toolbox
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hermes" class="md-nav__link">
+    HERMES
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sereega-simualating-event-related-eeg-activity" class="md-nav__link">
+    SEREEGA - Simualating Event-Related EEG Activity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unfold" class="md-nav__link">
+    UNFOLD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ept-tfce" class="md-nav__link">
+    ept-TFCE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erp-reliability-analysis-era" class="md-nav__link">
+    ERP Reliability Analysis (ERA)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openmeeg" class="md-nav__link">
+    OpenMEEG
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/learn-neuroimaging/tutorials-and-resources/edit/master/docs/analysis_software_MEEG.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>MEEG</h1>
+                
+                <h3 id="main-eeg-and-meg-softwares">Main EEG and MEG Softwares</h3>
+<p>The following list has been shamelessly taken from the excellent repo <a href="https://github.com/voytekresearch/OpenTools">Open Software for Human Electrophysiology</a>. Do check it out as it also includes plugins that are not listed here.</p>
+<h4 id="general-purpose-tools">General Purpose Tools</h4>
+<p>The following are general purpose platforms, with functionality including: loading data, pre-processing, visualization, standard analysis, and making figures. They are divided in sub-sections depending on the language they use.</p>
+<p><img alt="Language" src="https://img.shields.io/badge/Language-Python-blue.svg" /></p>
+<h5 id="mne">MNE</h5>
+<p>MNE is a general purpose tool for processing, analyzing and visualizing M/EEG data.</p>
+<p><a href="http://martinos.org/mne/stable/index.html">HomePage</a>
+<a href="https://github.com/mne-tools/mne-python">Github</a>
+<a href="https://doi.org/10.1016/j.neuroimage.2013.10.027">Paper</a></p>
+<h5 id="wonambi">Wonambi</h5>
+<p>Wonambi is a general purpose tool for processing, analyzing and visualizing EEG data, including specific tools focused on sleep scoring and analysis.</p>
+<p><a href="https://wonambi-python.github.io">HomePage</a>
+<a href="https://github.com/wonambi-python/wonambi">Github</a></p>
+<h5 id="neurokit">NeuroKit</h5>
+<p>NeuroKit is a tool for neurophysiological signal processing.</p>
+<p><a href="http://neurokit.readthedocs.io/en/latest/">HomePage</a>
+<a href="https://github.com/neuropsychology/NeuroKit.py">Github</a></p>
+<p><img alt="Language" src="https://img.shields.io/badge/Language-Matlab-orange.svg" /></p>
+<h5 id="fieldtrip">FieldTrip</h5>
+<p>FieldTrip is a general purpose tool for processing, analyzing and visualizing M/EEG and iEEG/ECoG data.</p>
+<p><a href="http://www.fieldtriptoolbox.org">HomePage</a>
+<a href="https://github.com/fieldtrip/fieldtrip">Github</a>
+<a href="https://doi.org/10.1155/2011/156869">Paper</a></p>
+<h5 id="brainstorm">BrainStorm</h5>
+<p>BrainStorm is a general purpose tool for processing, analyzing and visualizing focused primarily on MEG data, but includes support for EEG &amp; ECoG data.</p>
+<p><a href="https://neuroimage.usc.edu/brainstorm/">HomePage</a>
+<a href="https://github.com/brainstorm-tools/brainstorm3">Github</a>
+<a href="https://doi.org/10.1155/2011/879716">Paper</a></p>
+<h5 id="eeglab">EEGLab</h5>
+<p>EEGLab is a general purpose tool for processing, analyzing and visualizing EEG data.</p>
+<p><a href="https://sccn.ucsd.edu/eeglab/index.php">HomePage</a>
+<a href="https://doi.org/10.1016/j.jneumeth.2003.10.009">Paper</a></p>
+<h5 id="spm">SPM</h5>
+<p>SPM is a general purpose toolbox for neuroimaging, that includes support for processing M/EEG data.</p>
+<p><a href="https://www.fil.ion.ucl.ac.uk/spm/">HomePage</a></p>
+<h5 id="nutmeg">NutMEG</h5>
+<p>NutMEG is a general purpose tool for processing, analyzing and visualizing MEG data.</p>
+<p><a href="https://www.nitrc.org/plugins/mwiki/index.php/nutmeg:MainPage">HomePage</a>
+<a href="https://github.com/UCSFBiomagneticImagingLab/nutmeg">Github</a>
+<a href="https://doi.org/10.1155/2011/758973">Paper</a></p>
+<p><img alt="Language" src="https://img.shields.io/badge/Language-R-lightgrey.svg" /></p>
+<h5 id="eegutils">EEGUtils</h5>
+<p>EEGUtils is a general purpose tool for processing, analyzing and visualizing EEG data.</p>
+<p><a href="https://craddm.github.io/eegUtils/">HomePage</a>
+<a href="https://github.com/craddm/eegUtils">Github</a></p>
+<p><img alt="Language" src="https://img.shields.io/badge/Language-Julia-green.svg" /></p>
+<h5 id="eegjl">EEG.jl</h5>
+<p>EEG.jl is an EEG processing library.</p>
+<p><a href="https://eegjl.readthedocs.io/en/latest/">HomePage</a>
+<a href="https://github.com/rob-luke/EEG.jl">Github</a></p>
+<p><img alt="Language" src="https://img.shields.io/badge/Language-C++-yellowgreen.svg" /></p>
+<h5 id="cartool">CarTool</h5>
+<p>CarTool is an EEG analysis toolbox.</p>
+<p><a href="https://sites.google.com/site/cartoolcommunity/">HomePage</a>
+<a href="https://doi.org/10.1155/2011/813870">Paper</a></p>
+<h4 id="standalone-tools-specific-purposes">Standalone Tools - Specific Purposes</h4>
+<p><img alt="Language" src="https://img.shields.io/badge/Language-Python-blue.svg" /></p>
+<h5 id="neurodsp">NeuroDSP</h5>
+<p>NeuroDSP is a package for calculating a broad range of measures on neural time series, including a range of time-domain measures such as waveform shape analyses.</p>
+<p>Note: NeuroDSP is a tool developed by the VoytekLab.</p>
+<p><a href="https://github.com/voytekresearch/neurodsp">Github</a></p>
+<h5 id="fooof">FOOOF</h5>
+<p>FOOOF is a package for parameterizing neural power spectra.</p>
+<p>Note: FOOOF is a tool developed by the VoytekLab.</p>
+<p><a href="https://github.com/voytekresearch/fooof">Github</a>
+<a href="https://doi.org/10.1101/299859">Paper</a></p>
+<h5 id="spectral-connectivity">Spectral Connectivity</h5>
+<p>Spectral connectivity is a package including a group of functional connectivity and coherence related measures.</p>
+<p><a href="http://spectral-connectivity.readthedocs.io/en/latest/index.html">HomePage</a>
+<a href="https://github.com/Eden-Kramer-Lab/spectral_connectivity">Github</a></p>
+<h5 id="pactools">PACTools</h5>
+<p>PACTools is a package for calculating phase-amplitude coupling measures in neural time series.</p>
+<p><a href="https://pactools.github.io">HomePage</a>
+<a href="https://github.com/pactools/pactools">Github</a></p>
+<h5 id="tensor-pac">Tensor PAC</h5>
+<p>Tensor PAC is a tool for calculating phase-amplitude coupling measures, using tensors and parallel computing.</p>
+<p><a href="https://etiennecmb.github.io/tensorpac/">HomePage</a>
+<a href="https://github.com/EtienneCmb/tensorpac">Github</a></p>
+<h5 id="pyeeg">PyEEG</h5>
+<p>PyEEG includes some implementations of information theoretic and complexity related measures for neural time series.</p>
+<p><a href="https://github.com/forrestbao/pyeeg">Github</a>
+<a href="https://doi.org/10.1155/2011/406391">Paper</a></p>
+<h5 id="ecogtools">ECoGTools</h5>
+<p>A collection of tools for analyzing ECoG data.</p>
+<p><a href="https://github.com/choldgraf/ecogtools">Github</a></p>
+<p><img alt="Language" src="https://img.shields.io/badge/Language-Matlab-orange.svg" /></p>
+<h5 id="restingiaf">restingIAF</h5>
+<p>RestingIAF is a tool for estimating the peak individual alpha frequency.</p>
+<p><a href="https://github.com/corcorana/restingIAF">Github</a>
+<a href="https://doi.org/10.1111/psyp.13064">Paper</a></p>
+<h5 id="phase-opposition-code">Phase Opposition Code</h5>
+<p>Phase Opposition is a collection of functions for calculating phase opposition measures.</p>
+<p><a href="http://www.cerco.ups-tlse.fr/~rufin/PhaseOppositionCode/">HomePage</a>
+<a href="https://doi.org/10.3389/fnins.2016.00426">Paper</a></p>
+<h5 id="adam-amsterdam-decoding-and-modeling-toolbox">ADAM - Amsterdam Decoding and Modeling Toolbox</h5>
+<p>The Amsterdam Decoding and Modeling Toolbox does encoding and decoding model analysis on M/EEG data.</p>
+<p><a href="https://github.com/fahrenfort/ADAM">Github</a>
+<a href="https://doi.org/10.1007/s12021-013-9186-1">Paper</a></p>
+<h5 id="hermes">HERMES</h5>
+<p>HERMES is tool for estimating connectivity measures between M/EEG signals.</p>
+<p><a href="http://hermes.ctb.upm.es">HomePage</a>
+<a href="https://github.com/guiomar/HERMES">Github</a>
+<a href="https://doi.org/10.3389/fnins.2018.00368">Paper</a></p>
+<h5 id="sereega-simualating-event-related-eeg-activity">SEREEGA - Simualating Event-Related EEG Activity</h5>
+<p>SEREEGA is a package for simulating synthetic data that mimic event-related EEG activity.</p>
+<p><a href="https://github.com/lrkrol/SEREEGA">Github</a>
+<a href="https://doi.org/10.1101/326066">Paper</a></p>
+<h5 id="unfold">UNFOLD</h5>
+<p>Unfold is a tool for deconvolving overlapping EEG signals and for non-linear modelling.</p>
+<p><a href="https://www.unfoldtoolbox.org">HomePage</a>
+<a href="https://github.com/unfoldtoolbox/unfold">Github</a>
+<a href="https://doi.org/10.1101/360156">Paper</a></p>
+<h5 id="ept-tfce">ept-TFCE</h5>
+<p>A tool for statistical analysis of already pre-processed M/EEG data, focused mainly around the 'threshold-free cluster enhancement' method.</p>
+<p><a href="https://github.com/Mensen/ept_TFCE-matlab">Github</a>
+<a href="https://doi.org/10.1016/j.neuroimage.2012.10.027">Paper</a></p>
+<h5 id="erp-reliability-analysis-era">ERP Reliability Analysis (ERA)</h5>
+<p>ERA is a tool for calculating reliability estimates for ERP data.</p>
+<p><a href="http://peterclayson.com/era-toolbox/">HomePage</a>
+<a href="https://github.com/peclayson/ERA_Toolbox">Github</a>
+<a href="https://doi.org/10.1016/j.ijpsycho.2016.10.012">Paper</a></p>
+<p><img alt="Language" src="https://img.shields.io/badge/Language-C++-yellowgreen.svg" /></p>
+<h5 id="openmeeg">OpenMEEG</h5>
+<p>OpemMEEG is a package for solving forward problems for EEG &amp; MEG data.</p>
+<p><a href="http://openmeeg.github.io">HomePage</a>
+<a href="https://github.com/openmeeg/openmeeg">Github</a>
+<a href="https://doi.org/10.1186/1475-925X-9-45">Paper</a></p>
+                
+                  
+                
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../analysis_software_MRI/" title="MRI" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                MRI
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../machine_and_deep_learning/" title="Machine learning and Deep learning" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Machine learning and Deep learning
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.c33a9706.js"></script>
+      
+      <script>app.initialize({version:"1.1",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
