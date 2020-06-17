@@ -1,0 +1,31 @@
+# 
+#   This workflow deploys the repo by:
+#       - pushing the changes to master
+# 
+
+name: CI/CD
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  pull_request_check:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node-version: [10.x, 12.x]
+    
+    steps:
+    - uses: actions/checkout@v2 
+    - name: Setup Node ${{ matrix.node-version }} 
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}       
+    
+    - name: Install dependencies
+      run: |
+        npm i
+        npm run build
+        
