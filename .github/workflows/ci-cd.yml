@@ -26,6 +26,6 @@ jobs:
     
     - name: Install dependencies
       run: |
-        npm install `cat npm-requirements.txt`
+        cat npm-requirements.txt | xargs npm install -g
         npm run build
         
