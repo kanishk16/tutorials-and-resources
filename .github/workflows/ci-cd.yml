@@ -26,6 +26,6 @@ jobs:
     
     - name: Install dependencies
       run: |
-        npm i
+        npm install `cat npm-requirements.txt`
         npm run build
         
