@@ -242,5 +242,6 @@
   "projectOwner": "learn-neuroimaging",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-blue.svg?)](#contributors)"
 }
